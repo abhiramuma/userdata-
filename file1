@@ -1,0 +1,6 @@
+sudo yum update 
+sudo yum install httpd -y
+sudo systemctl start -y httpd
+sudo systemctl enable -y httpd
+sudo echo <h1> this is abhi pc (hostname -f)</h1>" > /var/www/html/index.html
+
